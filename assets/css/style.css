@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
   position: relative;
 }
@@ -1130,6 +1130,18 @@ section {
 .pricing .featured {
   background: #e03a3c;
 }
+/*.pricing .logo
+{
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  margin:20px;
+  float: right;
+}
+.pricing .QR
+{
+  float: left;
+}*/
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
