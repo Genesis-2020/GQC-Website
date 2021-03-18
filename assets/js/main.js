@@ -193,6 +193,17 @@
     }
   });
 
+  $(".teams-carousel").owlCarousel(
+    {
+      autoplay: true,
+      autoplayHoverPause: true,
+      items: 4,
+      dots: true,
+      loop: true,
+    }
+  );
+    
+
   // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
