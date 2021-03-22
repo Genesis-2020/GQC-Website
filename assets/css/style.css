@@ -593,7 +593,8 @@ section {
 }
 
 .about .content p {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .about .content .about-btn {
@@ -640,6 +641,18 @@ section {
   color: #848484;
 }
 
+.about ul{
+  font-size:18px;
+  padding: 0px;
+  
+}
+.about li
+{
+  line-height:19px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 @media (max-width: 1200px) {
   .about .content {
     padding-right: 0;
@@ -670,16 +683,20 @@ section {
 
 .counts .count-box i {
   position: absolute;
+  width:54px;
+  height:54px;
   top: -27px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
   background: #fff;
-  padding: 12px;
   color: #e03a3c;
   border-radius: 50px;
   border: 2px solid #fff;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items:center;
+  justify-content: center;
 }
 
 .counts .count-box span {
@@ -778,6 +795,10 @@ section {
 
 .tabs .tab-pane p:last-child {
   margin-bottom: 0;
+}
+.tabs .nav-item
+{
+  margin-top: 10px;
 }
 
 /*--------------------------------------------------------------
